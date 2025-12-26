@@ -1,0 +1,92 @@
+2025-12-27 00:00:42.625 | INFO     | __main__:run_analysis:275 - 🚀 Starting MAT Framework Analysis for AAPL
+2025-12-27 00:00:42.625 | INFO     | MAT.environment:__init__:36 - 📊 Multi-Agent Investment Analysis initialized
+2025-12-27 00:00:42.625 | INFO     | MAT.environment:set_ticker:46 - 🎯 Trading state initialized for ticker: AAPL
+2025-12-27 00:00:42.678 | INFO     | MAT.roles.base_agent:__init__:52 - 🤖 Research Analyst 'Alice' initialized
+2025-12-27 00:00:42.690 | INFO     | MAT.roles.base_agent:__init__:52 - 🤖 Technical Analyst 'Bob' initialized
+2025-12-27 00:00:42.701 | INFO     | MAT.roles.base_agent:__init__:52 - 🤖 Sentiment Analyst 'Charlie' initialized
+2025-12-27 00:00:42.712 | INFO     | MAT.roles.base_agent:__init__:52 - 🤖 Alpha Strategist 'Diana' initialized
+2025-12-27 00:00:42.714 | DEBUG    | MAT.roles.base_agent:set_ticker:72 - 🎯 Research Analyst now tracking: AAPL
+2025-12-27 00:00:42.715 | DEBUG    | MAT.roles.base_agent:set_ticker:72 - 🎯 Technical Analyst now tracking: AAPL
+2025-12-27 00:00:42.715 | DEBUG    | MAT.roles.base_agent:set_ticker:72 - 🎯 Sentiment Analyst now tracking: AAPL
+2025-12-27 00:00:42.716 | DEBUG    | MAT.roles.base_agent:set_ticker:72 - 🎯 Alpha Strategist now tracking: AAPL
+2025-12-27 00:00:42.717 | INFO     | __main__:run_analysis:293 - 📣 Publishing StartAnalysis message...
+2025-12-27 00:00:42.719 | INFO     | MAT.environment:publish_message:140 - 📤 Publishing message: MAT.actions.StartAnalysis for ticker AAPL
+2025-12-27 00:00:42.719 | DEBUG    | metagpt.environment.base_env:publish_message:184 - publish_message: {"id":"5c5cc41557084990b1c55f4c4a8beaba","content":"Starting investment analysis for AAPL. Mean reversion opportunity screening","role":"Orchestrator","cause_by":"MAT.actions.StartAnalysis","sent_from":"","send_to":["<all>"],"metadata":{}}
+2025-12-27 00:00:42.719 | INFO     | __main__:run_analysis:304 - 
+============================================================
+2025-12-27 00:00:42.719 | INFO     | __main__:run_analysis:305 - Phase 1: Parallel Analysis by RA, TA, SA
+2025-12-27 00:00:42.719 | INFO     | __main__:run_analysis:306 - ============================================================
+2025-12-27 00:00:42.719 | DEBUG    | metagpt.roles.role:_observe:426 - Alice(Research Analyst) observed: ['Orchestrator: Starting investment ...']
+2025-12-27 00:00:42.719 | INFO     | __main__:_act:63 - 💼 Research Analyst analyzing fundamentals for AAPL
+2025-12-27 00:00:42.719 | INFO     | MAT.environment:update_fa_report:70 - ✅ FA Report updated for AAPL
+2025-12-27 00:00:42.720 | INFO     | MAT.roles.base_agent:publish_message:165 - 📤 Research Analyst publishing PublishFAReport for AAPL
+2025-12-27 00:00:42.720 | INFO     | MAT.environment:publish_message:140 - 📤 Publishing message: MAT.actions.PublishFAReport for ticker AAPL
+2025-12-27 00:00:42.720 | DEBUG    | metagpt.environment.base_env:publish_message:184 - publish_message: {"id":"64c275e5dc11495fb88f056a3d0aabaf","content":"{\n  \"ticker\": \"AAPL\",\n  \"revenue_growth_yoy\": 0.15,\n  \"gross_margin\": 0.42,\n  \"fcf_growth\": 0.08,\n  \"guidance_sentiment\": 0.6,\n  \"key_risks\": [\n    \"Supply chain disruptions\",\n    \"Increased competition\",\n    \"Regulatory pressure\"\n  ],\n  \"is_growth_healthy\": true\n}","role":"Research Analyst","cause_by":"MAT.actions.PublishFAReport","sent_from":"","send_to":["<all>"],"metadata":{}}
+2025-12-27 00:03:14.137 | INFO     | __main__:run_analysis:275 - 🚀 Starting MAT Framework Analysis for AAPL
+2025-12-27 00:03:14.138 | INFO     | MAT.environment:__init__:36 - 📊 Multi-Agent Investment Analysis initialized
+2025-12-27 00:03:14.138 | INFO     | MAT.environment:set_ticker:46 - 🎯 Trading state initialized for ticker: AAPL
+2025-12-27 00:03:14.189 | INFO     | MAT.roles.base_agent:__init__:52 - 🤖 Research Analyst 'Alice' initialized
+2025-12-27 00:03:14.202 | INFO     | MAT.roles.base_agent:__init__:52 - 🤖 Technical Analyst 'Bob' initialized
+2025-12-27 00:03:14.214 | INFO     | MAT.roles.base_agent:__init__:52 - 🤖 Sentiment Analyst 'Charlie' initialized
+2025-12-27 00:03:14.225 | INFO     | MAT.roles.base_agent:__init__:52 - 🤖 Alpha Strategist 'Diana' initialized
+2025-12-27 00:03:14.227 | DEBUG    | MAT.roles.base_agent:set_ticker:72 - 🎯 Research Analyst now tracking: AAPL
+2025-12-27 00:03:14.228 | DEBUG    | MAT.roles.base_agent:set_ticker:72 - 🎯 Technical Analyst now tracking: AAPL
+2025-12-27 00:03:14.229 | DEBUG    | MAT.roles.base_agent:set_ticker:72 - 🎯 Sentiment Analyst now tracking: AAPL
+2025-12-27 00:03:14.229 | DEBUG    | MAT.roles.base_agent:set_ticker:72 - 🎯 Alpha Strategist now tracking: AAPL
+2025-12-27 00:03:14.230 | INFO     | __main__:run_analysis:293 - 📣 Publishing StartAnalysis message...
+2025-12-27 00:03:14.231 | INFO     | MAT.environment:publish_message:140 - 📤 Publishing message: MAT.actions.StartAnalysis for ticker AAPL
+2025-12-27 00:03:14.231 | DEBUG    | metagpt.environment.base_env:publish_message:184 - publish_message: {"id":"82ceb32a7f2e40879b24edc41ddbc24c","content":"Starting investment analysis for AAPL. Mean reversion opportunity screening","role":"Orchestrator","cause_by":"MAT.actions.StartAnalysis","sent_from":"","send_to":["<all>"],"metadata":{}}
+2025-12-27 00:03:14.231 | INFO     | __main__:run_analysis:304 - 
+============================================================
+2025-12-27 00:03:14.232 | INFO     | __main__:run_analysis:305 - Phase 1: Parallel Analysis by RA, TA, SA
+2025-12-27 00:03:14.232 | INFO     | __main__:run_analysis:306 - ============================================================
+2025-12-27 00:03:14.232 | DEBUG    | metagpt.roles.role:_observe:426 - Alice(Research Analyst) observed: ['Orchestrator: Starting investment ...']
+2025-12-27 00:03:14.232 | INFO     | __main__:_act:63 - 💼 Research Analyst analyzing fundamentals for AAPL
+2025-12-27 00:03:14.232 | INFO     | MAT.environment:update_fa_report:70 - ✅ FA Report updated for AAPL
+2025-12-27 00:03:14.232 | INFO     | MAT.roles.base_agent:publish_message:175 - 📤 Research Analyst publishing PublishFAReport for AAPL
+2025-12-27 00:03:14.232 | INFO     | MAT.environment:publish_message:140 - 📤 Publishing message: MAT.actions.PublishFAReport for ticker AAPL
+2025-12-27 00:03:14.232 | DEBUG    | metagpt.environment.base_env:publish_message:184 - publish_message: {"id":"3f7112dfce4847219efee96c673f11ca","content":"{\n  \"ticker\": \"AAPL\",\n  \"revenue_growth_yoy\": 0.15,\n  \"gross_margin\": 0.42,\n  \"fcf_growth\": 0.08,\n  \"guidance_sentiment\": 0.6,\n  \"key_risks\": [\n    \"Supply chain disruptions\",\n    \"Increased competition\",\n    \"Regulatory pressure\"\n  ],\n  \"is_growth_healthy\": true\n}","role":"Research Analyst","cause_by":"MAT.actions.PublishFAReport","sent_from":"","send_to":["<all>"],"metadata":{}}
+2025-12-27 00:03:14.232 | DEBUG    | metagpt.roles.role:_observe:426 - Bob(Technical Analyst) observed: ['Orchestrator: Starting investment ...']
+2025-12-27 00:03:14.232 | INFO     | __main__:_act:118 - 📊 Technical Analyst analyzing technicals for AAPL
+2025-12-27 00:03:14.232 | INFO     | MAT.environment:update_ta_report:84 - ✅ TA Report updated for AAPL
+2025-12-27 00:03:14.233 | INFO     | MAT.roles.base_agent:publish_message:175 - 📤 Technical Analyst publishing PublishTAReport for AAPL
+2025-12-27 00:03:14.233 | INFO     | MAT.environment:publish_message:140 - 📤 Publishing message: MAT.actions.PublishTAReport for ticker AAPL
+2025-12-27 00:03:14.233 | DEBUG    | metagpt.environment.base_env:publish_message:184 - publish_message: {"id":"7c6d05a6010843e0a49b05fd289fd265","content":"{\n  \"ticker\": \"AAPL\",\n  \"rsi_14\": 32.5,\n  \"bb_lower_touch\": true,\n  \"price_to_ma200_dist\": -0.12,\n  \"volatility_atr\": 2.8,\n  \"technical_signal\": \"BUY\"\n}","role":"Technical Analyst","cause_by":"MAT.actions.PublishTAReport","sent_from":"","send_to":["<all>"],"metadata":{}}
+2025-12-27 00:03:14.233 | DEBUG    | metagpt.roles.role:_observe:426 - Charlie(Sentiment Analyst) observed: ['Orchestrator: Starting investment ...']
+2025-12-27 00:03:14.233 | INFO     | __main__:_act:167 - 📰 Sentiment Analyst analyzing sentiment for AAPL
+2025-12-27 00:03:14.234 | INFO     | MAT.environment:update_sa_report:98 - ✅ SA Report updated for AAPL
+2025-12-27 00:03:14.234 | INFO     | MAT.roles.base_agent:publish_message:175 - 📤 Sentiment Analyst publishing PublishSAReport for AAPL
+2025-12-27 00:03:14.234 | INFO     | MAT.environment:publish_message:140 - 📤 Publishing message: MAT.actions.PublishSAReport for ticker AAPL
+2025-12-27 00:03:14.234 | DEBUG    | metagpt.environment.base_env:publish_message:184 - publish_message: {"id":"1bfaff72992242e2892a7a098871d100","content":"{\n  \"ticker\": \"AAPL\",\n  \"sentiment_score\": 0.4,\n  \"impactful_events\": [\n    \"PRODUCT_LAUNCH\",\n    \"ANALYST_UPGRADE\"\n  ],\n  \"top_keywords\": [\n    \"innovation\",\n    \"growth\",\n    \"expansion\",\n    \"partnership\"\n  ],\n  \"news_summary\": \"Recent product launch received positive analyst coverage. Market sentiment improving.\"\n}","role":"Sentiment Analyst","cause_by":"MAT.actions.PublishSAReport","sent_from":"","send_to":["<all>"],"metadata":{}}
+2025-12-27 00:03:14.234 | INFO     | __main__:run_analysis:318 - 
+============================================================
+2025-12-27 00:03:14.234 | INFO     | __main__:run_analysis:319 - Phase 2: Strategy Synthesis by AS
+2025-12-27 00:03:14.234 | INFO     | __main__:run_analysis:320 - ============================================================
+2025-12-27 00:03:14.234 | DEBUG    | metagpt.roles.role:_observe:426 - Diana(Alpha Strategist) observed: ['Research Analyst: {\n  "ticker": "AAPL"...', 'Technical Analyst: {\n  "ticker": "AAPL"...', 'Sentiment Analyst: {\n  "ticker": "AAPL"...']
+2025-12-27 00:03:14.234 | INFO     | __main__:_act:224 - 🎯 Alpha Strategist synthesizing final decision for AAPL
+2025-12-27 00:03:14.234 | INFO     | MAT.environment:update_final_decision:112 - 🎯 Final Decision updated for AAPL: BUY
+2025-12-27 00:03:14.235 | INFO     | MAT.roles.base_agent:publish_message:175 - 📤 Alpha Strategist publishing PublishStrategyDecision for AAPL
+2025-12-27 00:03:14.235 | INFO     | MAT.environment:publish_message:140 - 📤 Publishing message: MAT.actions.PublishStrategyDecision for ticker AAPL
+2025-12-27 00:03:14.235 | DEBUG    | metagpt.environment.base_env:publish_message:184 - publish_message: {"id":"b46834cfd00f48468fccecf81d526eda","content":"{\n  \"ticker\": \"AAPL\",\n  \"final_action\": \"BUY\",\n  \"confidence_score\": 75.0,\n  \"logic_chain\": [\n    \"FA: Growth healthy (True), revenue +15.0% YoY\",\n    \"TA: RSI oversold (32.5), touched BB lower, signal=BUY\",\n    \"SA: Positive sentiment (0.40), catalysts: ['PRODUCT_LAUNCH', 'ANALYST_UPGRADE']\",\n    \"CONCLUSION: Strong fundamental health + technical oversold + positive catalysts = BUY opportunity\"\n  ],\n  \"risk_notes\": \"Set stop-loss at -8% using ATR. Monitor for earnings surprise. Position size: 3% of portfolio.\",\n  \"suggested_module\": \"MeanReversionLong\"\n}","role":"Alpha Strategist","cause_by":"MAT.actions.PublishStrategyDecision","sent_from":"","send_to":["<all>"],"metadata":{}}
+2025-12-27 00:03:14.235 | INFO     | __main__:run_analysis:326 - 
+============================================================
+2025-12-27 00:03:14.235 | INFO     | __main__:run_analysis:327 - Final Trading State Summary
+2025-12-27 00:03:14.235 | INFO     | __main__:run_analysis:328 - ============================================================
+2025-12-27 00:03:14.235 | INFO     | __main__:run_analysis:329 - 📊 Trading State for AAPL:
+  - FA Report: ✅
+  - TA Report: ✅
+  - SA Report: ✅
+  - Final Decision: ✅
+
+2025-12-27 00:03:14.235 | INFO     | __main__:run_analysis:333 - 
+🎯 FINAL DECISION: BUY
+2025-12-27 00:03:14.235 | INFO     | __main__:run_analysis:334 - 📊 Confidence: 75.0%
+2025-12-27 00:03:14.235 | INFO     | __main__:run_analysis:335 - 🧠 Logic Chain:
+2025-12-27 00:03:14.235 | INFO     | __main__:run_analysis:337 -    1. FA: Growth healthy (True), revenue +15.0% YoY
+2025-12-27 00:03:14.235 | INFO     | __main__:run_analysis:337 -    2. TA: RSI oversold (32.5), touched BB lower, signal=BUY
+2025-12-27 00:03:14.235 | INFO     | __main__:run_analysis:337 -    3. SA: Positive sentiment (0.40), catalysts: ['PRODUCT_LAUNCH', 'ANALYST_UPGRADE']
+2025-12-27 00:03:14.236 | INFO     | __main__:run_analysis:337 -    4. CONCLUSION: Strong fundamental health + technical oversold + positive catalysts = BUY opportunity
+2025-12-27 00:03:14.236 | INFO     | __main__:run_analysis:338 - ⚠️  Risk Notes: Set stop-loss at -8% using ATR. Monitor for earnings surprise. Position size: 3% of portfolio.
+2025-12-27 00:03:14.236 | INFO     | __main__:run_analysis:339 - 🔧 Suggested Module: MeanReversionLong
+2025-12-27 00:03:14.236 | INFO     | __main__:run_analysis:341 - 
+✅ MAT Framework Analysis Complete!

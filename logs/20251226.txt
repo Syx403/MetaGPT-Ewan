@@ -1,0 +1,14 @@
+2025-12-26 23:57:09.169 | INFO     | __main__:run_analysis:275 - 🚀 Starting MAT Framework Analysis for AAPL
+2025-12-26 23:57:09.170 | INFO     | MAT.environment:__init__:36 - 📊 Multi-Agent Investment Analysis initialized
+2025-12-26 23:57:09.170 | INFO     | MAT.environment:set_ticker:46 - 🎯 Trading state initialized for ticker: AAPL
+2025-12-26 23:57:09.226 | INFO     | MAT.roles.base_agent:__init__:52 - 🤖 Research Analyst 'Alice' initialized
+2025-12-26 23:57:09.238 | INFO     | MAT.roles.base_agent:__init__:52 - 🤖 Technical Analyst 'Bob' initialized
+2025-12-26 23:57:09.249 | INFO     | MAT.roles.base_agent:__init__:52 - 🤖 Sentiment Analyst 'Charlie' initialized
+2025-12-26 23:57:09.261 | INFO     | MAT.roles.base_agent:__init__:52 - 🤖 Alpha Strategist 'Diana' initialized
+2025-12-26 23:57:09.264 | DEBUG    | MAT.roles.base_agent:set_ticker:72 - 🎯 Research Analyst now tracking: AAPL
+2025-12-26 23:57:09.264 | DEBUG    | MAT.roles.base_agent:set_ticker:72 - 🎯 Technical Analyst now tracking: AAPL
+2025-12-26 23:57:09.265 | DEBUG    | MAT.roles.base_agent:set_ticker:72 - 🎯 Sentiment Analyst now tracking: AAPL
+2025-12-26 23:57:09.266 | DEBUG    | MAT.roles.base_agent:set_ticker:72 - 🎯 Alpha Strategist now tracking: AAPL
+2025-12-26 23:57:09.266 | INFO     | __main__:run_analysis:293 - 📣 Publishing StartAnalysis message...
+2025-12-26 23:57:09.268 | INFO     | MAT.environment:publish_message:140 - 📤 Publishing message: MAT.actions.StartAnalysis for ticker AAPL
+2025-12-26 23:57:09.268 | DEBUG    | metagpt.environment.base_env:publish_message:184 - publish_message: {"id":"330fee7574e4413daa60d752d6084c92","content":"Starting investment analysis for AAPL. Mean reversion opportunity screening","role":"Orchestrator","cause_by":"MAT.actions.StartAnalysis","sent_from":"","send_to":["<all>"],"metadata":{}}

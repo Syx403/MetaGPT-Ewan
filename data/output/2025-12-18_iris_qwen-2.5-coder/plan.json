@@ -1,0 +1,57 @@
+{
+    "goal": "Run data analysis on sklearn Iris dataset, include a plot",
+    "context": "",
+    "tasks": [
+        {
+            "task_id": "1",
+            "dependent_task_ids": [],
+            "instruction": "Perform exploratory data analysis on the Iris dataset, including loading the dataset, displaying summary statistics, and checking for missing values.",
+            "task_type": "eda",
+            "code": "\nimport pandas as pd\n\n# Load the Iris dataset\nurl = \"https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data\"\ncolumn_names = [\"sepal_length\", \"sepal_width\", \"petal_length\", \"petal_width\", \"class\"]\niris_df = pd.read_csv(url, names=column_names)\n\n# Display summary statistics\nprint(iris_df.describe())\n\n# Check for missing values\nprint(iris_df.isnull().sum())",
+            "result": "\nsepal_length  sepal_width  petal_length  petal_width\ncount    150.000000   150.000000    150.000000   150.000000\nmean       5.843333     3.054000      3.758667     1.198667\nstd        0.828066     0.433594      1.764420     0.763161\nmin        4.300000     2.000000      1.000000     0.100000\n25%        5.100000     2.800000      1.600000     0.300000\n50%        5.800000     3.000000      4.350000     1.300000\n75%        6.400000     3.300000      5.100000     1.800000\nmax        7.900000     4.400000      6.900000     2.500000\nsepal_length    0\nsepal_width     0\npetal_length    0\npetal_width     0\nclass           0\ndtype: int64",
+            "is_success": true,
+            "is_finished": true,
+            "assignee": ""
+        },
+        {
+            "task_id": "2",
+            "dependent_task_ids": [
+                "1"
+            ],
+            "instruction": "Create visualizations to summarize the findings from the EDA, including a pairplot and boxplots for each feature by class, ensuring to import numpy as np.",
+            "task_type": "",
+            "code": "\nimport numpy as np\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Create a pairplot to visualize relationships between features\nsns.pairplot(iris_df, hue='class')\nplt.show()\n\n# Create boxplots for each feature by class\nfor column in iris_df.columns[:-1]:\n    sns.boxplot(x='class', y=column, data=iris_df)\n    plt.title(f'Boxplot of {column} by Class')\n    plt.show()",
+            "result": "\n,,,,",
+            "is_success": true,
+            "is_finished": true,
+            "assignee": ""
+        }
+    ],
+    "task_map": {
+        "1": {
+            "task_id": "1",
+            "dependent_task_ids": [],
+            "instruction": "Perform exploratory data analysis on the Iris dataset, including loading the dataset, displaying summary statistics, and checking for missing values.",
+            "task_type": "eda",
+            "code": "\nimport pandas as pd\n\n# Load the Iris dataset\nurl = \"https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data\"\ncolumn_names = [\"sepal_length\", \"sepal_width\", \"petal_length\", \"petal_width\", \"class\"]\niris_df = pd.read_csv(url, names=column_names)\n\n# Display summary statistics\nprint(iris_df.describe())\n\n# Check for missing values\nprint(iris_df.isnull().sum())",
+            "result": "\nsepal_length  sepal_width  petal_length  petal_width\ncount    150.000000   150.000000    150.000000   150.000000\nmean       5.843333     3.054000      3.758667     1.198667\nstd        0.828066     0.433594      1.764420     0.763161\nmin        4.300000     2.000000      1.000000     0.100000\n25%        5.100000     2.800000      1.600000     0.300000\n50%        5.800000     3.000000      4.350000     1.300000\n75%        6.400000     3.300000      5.100000     1.800000\nmax        7.900000     4.400000      6.900000     2.500000\nsepal_length    0\nsepal_width     0\npetal_length    0\npetal_width     0\nclass           0\ndtype: int64",
+            "is_success": true,
+            "is_finished": true,
+            "assignee": ""
+        },
+        "2": {
+            "task_id": "2",
+            "dependent_task_ids": [
+                "1"
+            ],
+            "instruction": "Create visualizations to summarize the findings from the EDA, including a pairplot and boxplots for each feature by class, ensuring to import numpy as np.",
+            "task_type": "",
+            "code": "\nimport numpy as np\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Create a pairplot to visualize relationships between features\nsns.pairplot(iris_df, hue='class')\nplt.show()\n\n# Create boxplots for each feature by class\nfor column in iris_df.columns[:-1]:\n    sns.boxplot(x='class', y=column, data=iris_df)\n    plt.title(f'Boxplot of {column} by Class')\n    plt.show()",
+            "result": "\n,,,,",
+            "is_success": true,
+            "is_finished": true,
+            "assignee": ""
+        }
+    },
+    "current_task_id": ""
+}

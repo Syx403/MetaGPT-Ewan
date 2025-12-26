@@ -1,0 +1,85 @@
+{
+    "goal": "Run data analysis on sklearn Iris dataset, include a plot",
+    "context": "",
+    "tasks": [
+        {
+            "task_id": "1",
+            "dependent_task_ids": [],
+            "instruction": "Perform exploratory data analysis on the Iris dataset.",
+            "task_type": "eda",
+            "code": "\n# Let's first load the Iris dataset into a DataFrame\nimport pandas as pd\n\n# Load the Iris dataset\niris_df = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data', \n                       header=None, \n                       names=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'])\n\n# Display the first few rows of the dataset to confirm it's loaded correctly\niris_df.head()",
+            "result": "\nsepal_length  sepal_width  petal_length  petal_width      species\n0           5.1          3.5           1.4          0.2  Iris-setosa\n1           4.9          3.0           1.4          0.2  Iris-setosa\n2           4.7          3.2           1.3          0.2  Iris-setosa\n3           4.6          3.1           1.5          0.2  Iris-setosa\n4           5.0          3.6           1.4          0.2  Iris-setosa",
+            "is_success": true,
+            "is_finished": true,
+            "assignee": ""
+        },
+        {
+            "task_id": "2",
+            "dependent_task_ids": [
+                "1"
+            ],
+            "instruction": "Install required packages for plotting.",
+            "task_type": "other",
+            "code": "\n# Now that the required packages are installed, let's import them for plotting.\nimport matplotlib.pyplot as plt\nimport seaborn as sns",
+            "result": "\n",
+            "is_success": true,
+            "is_finished": true,
+            "assignee": ""
+        },
+        {
+            "task_id": "3",
+            "dependent_task_ids": [
+                "1",
+                "2"
+            ],
+            "instruction": "Create a plot to visualize the findings from the EDA.",
+            "task_type": "other",
+            "code": "\nplt.figure(figsize=(10, 6))\nsns.scatterplot(data=iris_df, x='sepal_length', y='sepal_width', hue='species', style='species', s=100)\nplt.title('Sepal Length vs Sepal Width')\nplt.xlabel('Sepal Length (cm)')\nplt.ylabel('Sepal Width (cm)')\nplt.legend(title='Species')\nplt.grid()\nplt.show()",
+            "result": "\n",
+            "is_success": true,
+            "is_finished": true,
+            "assignee": ""
+        }
+    ],
+    "task_map": {
+        "1": {
+            "task_id": "1",
+            "dependent_task_ids": [],
+            "instruction": "Perform exploratory data analysis on the Iris dataset.",
+            "task_type": "eda",
+            "code": "\n# Let's first load the Iris dataset into a DataFrame\nimport pandas as pd\n\n# Load the Iris dataset\niris_df = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data', \n                       header=None, \n                       names=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'])\n\n# Display the first few rows of the dataset to confirm it's loaded correctly\niris_df.head()",
+            "result": "\nsepal_length  sepal_width  petal_length  petal_width      species\n0           5.1          3.5           1.4          0.2  Iris-setosa\n1           4.9          3.0           1.4          0.2  Iris-setosa\n2           4.7          3.2           1.3          0.2  Iris-setosa\n3           4.6          3.1           1.5          0.2  Iris-setosa\n4           5.0          3.6           1.4          0.2  Iris-setosa",
+            "is_success": true,
+            "is_finished": true,
+            "assignee": ""
+        },
+        "2": {
+            "task_id": "2",
+            "dependent_task_ids": [
+                "1"
+            ],
+            "instruction": "Install required packages for plotting.",
+            "task_type": "other",
+            "code": "\n# Now that the required packages are installed, let's import them for plotting.\nimport matplotlib.pyplot as plt\nimport seaborn as sns",
+            "result": "\n",
+            "is_success": true,
+            "is_finished": true,
+            "assignee": ""
+        },
+        "3": {
+            "task_id": "3",
+            "dependent_task_ids": [
+                "1",
+                "2"
+            ],
+            "instruction": "Create a plot to visualize the findings from the EDA.",
+            "task_type": "other",
+            "code": "\nplt.figure(figsize=(10, 6))\nsns.scatterplot(data=iris_df, x='sepal_length', y='sepal_width', hue='species', style='species', s=100)\nplt.title('Sepal Length vs Sepal Width')\nplt.xlabel('Sepal Length (cm)')\nplt.ylabel('Sepal Width (cm)')\nplt.legend(title='Species')\nplt.grid()\nplt.show()",
+            "result": "\n",
+            "is_success": true,
+            "is_finished": true,
+            "assignee": ""
+        }
+    },
+    "current_task_id": ""
+}
