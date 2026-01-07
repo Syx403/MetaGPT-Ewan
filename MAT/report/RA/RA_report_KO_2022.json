@@ -2,43 +2,41 @@
   "ticker": "KO",
   "revenue_performance": {
     "value": "$43,004 million, +11.3% YoY",
-    "analysis": "Revenue increased BECAUSE of strong performance in both concentrate and finished product operations, driven by recovery in away-from-home channels and strategic pricing initiatives.",
+    "analysis": "Revenue increased BECAUSE of strong performance in the Trademark Coca-Cola and sparkling flavors segments, THEN leading to higher net operating revenues.",
     "evidence_md": "|   |   | 2022 | 2021 | 2020 |\n| Net Operating Revenues |   | 43,004 $ | 38,655 $ | 33,014 |\n| Cost of goods sold |   | 18,000 | 15,357 | 13,433 |\n| Gross Profit |   | 25,004 | 23,298 | 19,581 |\n| Selling, general and administrative expenses |   | 12,880 | 12,144 | 9,731 |\n| Other operating charges |   | 1,215 | 846 | 853 |\n| Operating Income |   | 10,909 | 10,308 | 8,997 |\n| Interest income |   | 449 | 276 | 370 |\n| Interest expense |   | 882 | 1,597 | 1,437 |\n| Equity income (loss) —— net |   | 1,472 | 1,438 | 978 |\n| Other income (loss)—— net |   | (262) | 2,000 | 841 |\n| IncomeBeforeIncomeTaxes |   | 11,686 | 12,425 | 9,749 |\n| Income taxes |   | 2,115 | 2,621 | 1,981 |\n| Consolidated Net Income |   | 9,571 | 9,804 | 7,768 |\n| Less: Net income (loss) attributable to noncontrolling interests |   | 29 | 33 | 21 |\n| Net Income Attributable to Shareowners of The Coca-Cola Company |   | 9,542 $ | 9,771 $ | 7,747 |\n| BasicNetIncomePerShare | $ | 2.20 $ | 2.26 $ | 1.80 |\n| Diluted NetIncomePerShare! |   | 2.19 $ | 2.25 $ | 1.79 |\n| Average Shares Outstanding- | —Basic | 4,328 | 4,315 | 4,295 |\n| Effect of dilutive securities |   | 22 | 25 | 28 |\n| AverageShares Outstanding | —Diluted | 4,350 | 4,340 | 4,323 |",
     "source_link": "COCACOLA_2022_10K.pdf | 2d8bea9855d98513",
-    "source_url": "http://54.179.152.217/chunk/parsed/chunks?id=917005d4e6f711f0baea9af0fe87e5d6&doc_id=137bd635e6f911f09f8f9af0fe87e5d6&page=1",
+    "source_url": "http://54.169.205.0/chunk/parsed/chunks?id=917005d4e6f711f0baea9af0fe87e5d6&doc_id=137bd635e6f911f09f8f9af0fe87e5d6&page=1",
     "metadata": {
       "page_num": null,
-      "relevance_score": 0.51
+      "relevance_score": 0.57
     }
   },
   "profitability_audit": {
     "value": "Gross Margin: 58.1%, Operating Margin: 25.4%",
-    "analysis": "Margins improved BECAUSE of strategic pricing and cost management, despite increased cost of goods sold.",
+    "analysis": "Margins improved BECAUSE of cost management and increased sales in higher-margin segments, THEN resulting in higher profitability.",
     "evidence_md": "|   |   | 2022 | 2021 | 2020 |\n| Net Operating Revenues |   | 43,004 $ | 38,655 $ | 33,014 |\n| Cost of goods sold |   | 18,000 | 15,357 | 13,433 |\n| Gross Profit |   | 25,004 | 23,298 | 19,581 |\n| Selling, general and administrative expenses |   | 12,880 | 12,144 | 9,731 |\n| Other operating charges |   | 1,215 | 846 | 853 |\n| Operating Income |   | 10,909 | 10,308 | 8,997 |\n| Interest income |   | 449 | 276 | 370 |\n| Interest expense |   | 882 | 1,597 | 1,437 |\n| Equity income (loss) —— net |   | 1,472 | 1,438 | 978 |\n| Other income (loss)—— net |   | (262) | 2,000 | 841 |\n| IncomeBeforeIncomeTaxes |   | 11,686 | 12,425 | 9,749 |\n| Income taxes |   | 2,115 | 2,621 | 1,981 |\n| Consolidated Net Income |   | 9,571 | 9,804 | 7,768 |\n| Less: Net income (loss) attributable to noncontrolling interests |   | 29 | 33 | 21 |\n| Net Income Attributable to Shareowners of The Coca-Cola Company |   | 9,542 $ | 9,771 $ | 7,747 |\n| BasicNetIncomePerShare | $ | 2.20 $ | 2.26 $ | 1.80 |\n| Diluted NetIncomePerShare! |   | 2.19 $ | 2.25 $ | 1.79 |\n| Average Shares Outstanding- | —Basic | 4,328 | 4,315 | 4,295 |\n| Effect of dilutive securities |   | 22 | 25 | 28 |\n| AverageShares Outstanding | —Diluted | 4,350 | 4,340 | 4,323 |",
     "source_link": "COCACOLA_2022_10K.pdf | 2d8bea9855d98513",
-    "source_url": "http://54.179.152.217/chunk/parsed/chunks?id=917005d4e6f711f0baea9af0fe87e5d6&doc_id=137bd635e6f911f09f8f9af0fe87e5d6&page=1",
+    "source_url": "http://54.169.205.0/chunk/parsed/chunks?id=917005d4e6f711f0baea9af0fe87e5d6&doc_id=137bd635e6f911f09f8f9af0fe87e5d6&page=1",
     "metadata": {
       "page_num": null,
-      "relevance_score": 0.51
+      "relevance_score": 0.57
     }
   },
   "cash_flow_stability": {
     "value": "$11,018 million",
-    "analysis": "Cash flow from operations remained strong BECAUSE of effective working capital management and robust operating performance.",
-    "evidence_md": "| Year Ended December 31, |   | 2022 | 2021 | 2020 |\n| Operating Activities |   |   |   |   |\n| Consolidated net income | S | 9,571 $ | 9,804 $ | 7,768 |\n| Depreciation and amortization |   | 1,260 | 1,452 | 1,536 |\n| Stock-based compensation expense |   | 356 | 337 | 126 |\n| Deferred income taxes |   | (122) | 894 | (18) |\n| Equity (income) loss —- net of dividends |   | (838) | (615) | (511) |\n| Foreign currency adjustments |   | 203 | 86 | (88) |\n| Significant (gains) losses —— net |   | (129) | (1,365) | (914) |\n| Other operating charges |   | 1,086 | 506 | 556 |\n| Other items |   | 236 | 201 | 699 |\n| Net change in operating assets and liabilities |   | (605) | 1,325 | 690 |\n| NetCashProvided byOperatingActivities |   | 11,018 | 12,625 | 9,844 |\n| Investing Activities |   |   |   |   |\n| Purchases of investments |   | (3,751) | (6,030) | (13,583) |\n| Proceeds from disposals of investments |   | 4,771 | 7,059 | 13,835 |\n| Acquisitions of businesses, equity method investments and nonmarketable securities |   | (73) | (4,766) | (1,052) |\n| Proceeds from disposals of businesses, equity method investments and nonmarketable securities |   | 458 | 2,180 | 189 |\n| Purchases of property, plant and equipment |   | (1,484) | (1,367) | (1,177) |\n| Proceeds from disposals of property, plant and equipment |   | 75 | 108 | 189 |\n| Collateral (paid) received associated with hedging activities | —net | (1,465) |   |   |\n| Other investing activities |   | 706 | 51 | 122 |\n| Net Cash Provided by (Used in) Investing A",
+    "analysis": "Cash flow from operations remained strong BECAUSE of consistent revenue growth and effective working capital management, THEN ensuring liquidity for future investments.",
+    "evidence_md": "| Year Ended December 31, |   | 2022 | 2021 | 2020 |\n| Operating Activities |   |   |   |   |\n| Consolidated net income | S | 9,571 $ | 9,804 $ | 7,768 |\n| Depreciation and amortization |   | 1,260 | 1,452 | 1,536 |\n| Stock-based compensation expense |   | 356 | 337 | 126 |\n| Deferred income taxes |   | (122) | 894 | (18) |\n| Equity (income) loss —- net of dividends |   | (838) | (615) | (511) |\n| Foreign currency adjustments |   | 203 | 86 | (88) |\n| Significant (gains) losses —— net |   | (129) | (1,365) | (914) |\n| Other operating charges |   | 1,086 | 506 | 556 |\n| Other items |   | 236 | 201 | 699 |\n| Net change in operating assets and liabilities |   | (605) | 1,325 | 690 |\n| NetCashProvided byOperatingActivities |   | 11,018 | 12,625 | 9,844 |",
     "source_link": "COCACOLA_2022_10K.pdf | 59d8d4e36ebd713b",
-    "source_url": "http://54.179.152.217/chunk/parsed/chunks?id=917005d4e6f711f0baea9af0fe87e5d6&doc_id=137bd635e6f911f09f8f9af0fe87e5d6&page=1",
+    "source_url": "http://54.169.205.0/chunk/parsed/chunks?id=917005d4e6f711f0baea9af0fe87e5d6&doc_id=137bd635e6f911f09f8f9af0fe87e5d6&page=1",
     "metadata": {
       "page_num": null,
       "relevance_score": 0.49
     }
   },
-  "management_guidance_audit": "The management's discussion and analysis highlights the company's focus on strategic growth initiatives, cost management, and navigating macroeconomic challenges. The company aims to continue leveraging its brand strength and global reach to drive growth.",
+  "management_guidance_audit": "The management has focused on expanding its product portfolio and enhancing operational efficiency. They have also emphasized sustainability and digital transformation as key areas for future growth.",
   "key_risks_evidence": [
-    "Recoverability of Assets | Economic, political, and regulatory uncertainties in various regions may impact asset recoverability. | COCACOLA_2022_10K.pdf | 4d5f3eb5278449ea",
-    "Product Safety and Quality | Consumer concerns about ingredients and regulatory compliance may affect product perception. | COCACOLA_2021_10K.pdf | b708fce87cca2d7f",
-    "COVID-19 Impact | Ongoing pandemic effects may disrupt operations and affect financial performance. | COCACOLA_2021_10K.pdf | 24632fd3a7ed1f00",
-    "Sustainability Challenges | Increasing focus on sustainability may require significant changes in operations and supply chain. | COCACOLA_2022_10K.pdf | 59cd8baca168a768",
-    "Obesity Concerns | Growing health concerns about obesity may impact product demand and regulatory environment. | COCACOLA_2022_10K.pdf | cbed6fcd40d24475"
+    "COVID-19 Impact | The pandemic may continue to affect operations and financial performance due to changes in consumer behavior and government restrictions. | COCACOLA_2021_10K.pdf | 24632fd3a7ed1f00",
+    "Product Safety and Quality | Concerns over ingredients and compliance with safety standards could impact brand reputation and sales. | COCACOLA_2021_10K.pdf | b708fce87cca2d7f",
+    "Sustainability Challenges | Issues related to packaging, water stewardship, and climate change could affect operations and stakeholder relations. | COCACOLA_2022_10K.pdf | 59cd8baca168a768"
   ]
 }

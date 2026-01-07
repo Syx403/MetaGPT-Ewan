@@ -4,21 +4,21 @@
     "MarketEvent.EARNINGS_CALL"
   ],
   "top_keywords": [
-    "earnings",
     "revenue growth",
-    "net income",
     "cautious sentiment",
-    "investor attraction"
+    "earnings call",
+    "stock dip",
+    "retail outlook"
   ],
-  "news_summary": "Coca-Cola's Q4 2022 earnings report showed a 7% increase in net revenue, which attracted quality investors BECAUSE the revenue growth was seen as a positive clearing event. THEN, despite the revenue beat, net income fell by 16%, which tempered the overall positive sentiment. Retail sentiment remained cautious, reflecting a mixed outlook on the stock's future performance.",
-  "qualitative_sentiment_assessment": "The sentiment around Coca-Cola's Q4 2022 earnings is broadly positive, driven by strong revenue growth, though tempered by a decline in net income and cautious retail sentiment.",
+  "news_summary": "Coca-Cola reported a 7% revenue growth in Q4 2022 BECAUSE of strong organic sales, WHICH THEN was tempered by a 16% decline in net income. Retail sentiment remained cautious, leading to a dip in stock price post-earnings. Management's guidance for 2023 indicates a focus on organic revenue growth of 7-8%, WHICH THEN suggests a strategic emphasis on sustaining sales momentum despite macroeconomic challenges.",
+  "qualitative_sentiment_assessment": "The sentiment around Coca-Cola's recent performance is mixed, with positive revenue growth overshadowed by cautious retail sentiment and a dip in stock price post-earnings.",
   "sentiment_matrix": {
-    "Product_Demand": "Demand appears strong as indicated by a 7% increase in net revenue and 15% organic revenue growth.",
-    "Macro_Environment": "The macro environment presents mixed signals with cautious retail sentiment, suggesting potential headwinds.",
-    "Management_Confidence": "Management's guidance for 2023 indicates confidence with expected organic revenue growth of 7-8%, despite a decline in net income.",
-    "Competitive_Position": "The company's ability to attract quality investors suggests a strong competitive position, though specific market share dynamics are not detailed."
+    "Product_Demand": "Demand signals are positive with a 7% revenue growth, indicating strong product demand despite cautious retail sentiment.",
+    "Macro_Environment": "The macro environment presents headwinds with cautious retail sentiment and inflationary pressures impacting net income.",
+    "Management_Confidence": "Management's guidance reflects cautious optimism, focusing on organic revenue growth while acknowledging macroeconomic uncertainties.",
+    "Competitive_Position": "Coca-Cola maintains a strong competitive position with robust revenue growth, though market dynamics require careful navigation."
   },
-  "causal_narrative": "Coca-Cola's revenue grew 7% YoY BECAUSE of strong product demand, WHICH THEN attracted quality investors. However, net income fell by 16% DUE TO unspecified factors, WHICH LED TO cautious retail sentiment despite the revenue beat.",
-  "expectation_gap": "Revenue beat expectations, but earnings were in line, leading to a mixed market reaction. The stock rose 1.8% ahead of earnings, indicating some positive anticipation, but cautious sentiment suggests concerns about future performance.",
-  "paradoxes_or_tensions": "Paradox: Revenue growth and investor attraction BUT cautious retail sentiment. This reflects a tension between strong current performance and concerns about future earnings sustainability."
+  "causal_narrative": "Coca-Cola's revenue grew 7% BECAUSE of strong organic sales, WHICH THEN was offset by a 16% decline in net income due to macroeconomic pressures. Management's focus on organic growth for 2023 suggests a strategic response to these challenges, WHICH THEN aims to sustain sales momentum despite a cautious retail outlook.",
+  "expectation_gap": "Revenue exceeded expectations, BUT the stock dipped post-earnings BECAUSE net income fell and retail sentiment remained cautious, indicating investor concerns over future profitability.",
+  "paradoxes_or_tensions": "Paradox: Revenue growth was strong, BUT the stock price dipped, revealing investor concerns over declining net income and cautious retail sentiment."
 }

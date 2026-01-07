@@ -1,0 +1,18 @@
+{
+  "ticker": "AAPL",
+  "rsi_14": 37.473167136726545,
+  "bb_lower_touch": false,
+  "volatility_atr": 4.221947310205389,
+  "price_to_ma20_dist": -0.05405706292788705,
+  "price_to_ma50_dist": -0.09153843581020424,
+  "price_to_ma200_dist": -0.14101256788236838,
+  "market_regime": "Price is -14.10% below MA(200), -9.15% below MA(50), and -5.41% below MA(20), confirming a persistent downtrend across all timeframes. The consistent negative distances indicate structural bearish pressure, with the price significantly deviating from all moving averages. This deviation suggests a mean reversion risk, as the price has moved away from its structural support levels, potentially leading to a corrective movement to reestablish equilibrium.",
+  "indicator_tension_analysis": "The RSI at 37.47 is approaching oversold territory, indicating potential for a short-term bounce. However, the price remains below all moving averages (MA20, MA50, MA200), which are aligned in a bearish configuration. This creates tension between short-term momentum suggesting a bounce and the multi-period trend structure indicating ongoing structural resistance.",
+  "dead_cat_vs_value": "The current structural categorization is 'Dead Cat Bounce Risk' as the price is significantly below MA20, MA50, and MA200, with no bullish crossover signals present. The substantial negative distances from all moving averages suggest that any upward movement may be temporary without a change in the underlying trend structure.",
+  "pivot_zones": {
+    "ma200_level": 149.01,
+    "ma50_level": 140.9,
+    "ma20_level": 135.31,
+    "bb_middle": 135.31
+  }
+}

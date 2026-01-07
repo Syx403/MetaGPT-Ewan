@@ -1,34 +1,34 @@
 {
     "env": {
-        "desc": "US election live broadcast",
+        "desc": "MAT Analysis Environment - KO 2022",
         "roles": {
-            "A": {
-                "name": "A",
-                "profile": "Democratic candidate",
-                "goal": "Win the election",
-                "constraints": "",
+            "ResearchAnalyst": {
+                "name": "ResearchAnalyst",
+                "profile": "Research Analyst",
+                "goal": "Conduct fundamental analysis and identify growth potential",
+                "constraints": "Focus on quantitative metrics from RAGFlow data",
                 "desc": "",
                 "is_human": false,
                 "enable_memory": true,
                 "role_id": "",
                 "states": [
-                    "0. DemocraticSay"
+                    "0. PublishFAReport"
                 ],
                 "actions": [
                     {
-                        "name": "Say",
+                        "name": "PublishFAReport",
                         "i_context": "",
-                        "prefix": "You are a Democratic candidate, named A, your goal is Win the election. You are in US election live broadcast with roles(B, C).",
+                        "prefix": "You are a Research Analyst, named ResearchAnalyst, your goal is Conduct fundamental analysis and identify growth potential. the constraint is Focus on quantitative metrics from RAGFlow data. ",
                         "desc": "",
                         "llm_name_or_type": null,
-                        "__module_class_name": "__main__.DemocraticSay"
+                        "__module_class_name": "MAT.actions_module.PublishFAReport"
                     }
                 ],
                 "rc": {
                     "memory": {
                         "storage": [],
                         "index": {
-                            "metagpt.actions.add_requirement.UserRequirement": []
+                            "MAT.actions_module.StartAnalysis": []
                         },
                         "ignore_id": false
                     },
@@ -39,15 +39,14 @@
                     },
                     "state": 0,
                     "watch": [
-                        "__main__.RepublicanSay",
-                        "metagpt.actions.add_requirement.UserRequirement"
+                        "MAT.actions_module.StartAnalysis"
                     ],
                     "react_mode": "react",
                     "max_react_loop": 1
                 },
                 "addresses": [
-                    "A",
-                    "metagpt.roles.role.Role"
+                    "ResearchAnalyst",
+                    "MAT.roles.research_analyst.ResearchAnalyst"
                 ],
                 "planner": {
                     "plan": {
@@ -66,11 +65,11 @@
                 },
                 "recovered": false,
                 "latest_observed_msg": {
-                    "id": "9f9198dec63c477a9ffcdae927a2d647",
-                    "content": "Topic: climate change. Under 80 words per message.",
+                    "id": "3dedd7ef9c5143b685d2b2b1abdda0f0",
+                    "content": "{\"ticker\": \"KO\", \"fiscal_year\": 2022}",
                     "instruct_content": null,
-                    "role": "user",
-                    "cause_by": "metagpt.actions.add_requirement.UserRequirement",
+                    "role": "Orchestrator",
+                    "cause_by": "MAT.actions_module.StartAnalysis",
                     "sent_from": "",
                     "send_to": [
                         "<all>"
@@ -78,28 +77,268 @@
                     "metadata": {}
                 },
                 "observe_all_msg_from_buffer": false,
-                "__module_class_name": "metagpt.roles.role.Role"
+                "analysis_start_date": null,
+                "analysis_end_date": null,
+                "system_reference_date": "2022-12-31",
+                "retrieve_rag_action": {
+                    "name": "RetrieveRAGData",
+                    "i_context": "",
+                    "prefix": "",
+                    "desc": "",
+                    "llm_name_or_type": null,
+                    "ragflow_endpoint": "http://54.169.205.0:9380/api/v1/retrieval",
+                    "ragflow_api_key": "ragflow-v0N8aqAAF5QBH8y0Bhw3_rczjsOVvJcMxmWinwZ-38o",
+                    "ragflow_dataset_id": "917005d4e6f711f0baea9af0fe87e5d6",
+                    "rerank_id": "gte-rerank@Tongyi-Qianwen",
+                    "top_k": 5,
+                    "output_dir": "MAT/report/RA",
+                    "ui_base_url": "http://54.169.205.0",
+                    "__module_class_name": "MAT.actions.retrieve_rag_data.RetrieveRAGData"
+                },
+                "__module_class_name": "MAT.roles.research_analyst.ResearchAnalyst"
             },
-            "B": {
-                "name": "B",
-                "profile": "Republican candidate",
-                "goal": "Win the election",
-                "constraints": "",
+            "TechnicalAnalyst": {
+                "name": "TechnicalAnalyst",
+                "profile": "Technical Analyst",
+                "goal": "Identify mean reversion opportunities through technical analysis",
+                "constraints": "Focus on RSI, Bollinger Bands, and SMA indicators",
                 "desc": "",
                 "is_human": false,
                 "enable_memory": true,
                 "role_id": "",
                 "states": [
-                    "0. RepublicanSay"
+                    "0. PublishTAReport"
                 ],
                 "actions": [
                     {
-                        "name": "Say",
+                        "name": "PublishTAReport",
                         "i_context": "",
-                        "prefix": "You are a Republican candidate, named B, your goal is Win the election. You are in US election live broadcast with roles(A, C).",
+                        "prefix": "You are a Technical Analyst, named TechnicalAnalyst, your goal is Identify mean reversion opportunities through technical analysis. the constraint is Focus on RSI, Bollinger Bands, and SMA indicators. ",
                         "desc": "",
                         "llm_name_or_type": null,
-                        "__module_class_name": "__main__.RepublicanSay"
+                        "__module_class_name": "MAT.actions_module.PublishTAReport"
+                    }
+                ],
+                "rc": {
+                    "memory": {
+                        "storage": [],
+                        "index": {
+                            "MAT.actions_module.StartAnalysis": []
+                        },
+                        "ignore_id": false
+                    },
+                    "working_memory": {
+                        "storage": [],
+                        "index": {},
+                        "ignore_id": false
+                    },
+                    "state": 0,
+                    "watch": [
+                        "MAT.actions_module.StartAnalysis"
+                    ],
+                    "react_mode": "react",
+                    "max_react_loop": 1
+                },
+                "addresses": [
+                    "MAT.roles.technical_analyst.TechnicalAnalyst",
+                    "TechnicalAnalyst"
+                ],
+                "planner": {
+                    "plan": {
+                        "goal": "",
+                        "context": "",
+                        "tasks": [],
+                        "task_map": {},
+                        "current_task_id": ""
+                    },
+                    "working_memory": {
+                        "storage": [],
+                        "index": {},
+                        "ignore_id": false
+                    },
+                    "auto_run": false
+                },
+                "recovered": false,
+                "latest_observed_msg": {
+                    "id": "3dedd7ef9c5143b685d2b2b1abdda0f0",
+                    "content": "{\"ticker\": \"KO\", \"fiscal_year\": 2022}",
+                    "instruct_content": null,
+                    "role": "Orchestrator",
+                    "cause_by": "MAT.actions_module.StartAnalysis",
+                    "sent_from": "",
+                    "send_to": [
+                        "<all>"
+                    ],
+                    "metadata": {}
+                },
+                "observe_all_msg_from_buffer": false,
+                "analysis_start_date": null,
+                "analysis_end_date": null,
+                "system_reference_date": "2022-12-31",
+                "calculate_technicals_action": {
+                    "name": "CalculateTechnicals",
+                    "i_context": "",
+                    "prefix": "",
+                    "desc": "",
+                    "llm_name_or_type": null,
+                    "default_period": 500,
+                    "rsi_period": 14,
+                    "bb_period": 20,
+                    "bb_std": 2.0,
+                    "sma_period": 200,
+                    "atr_period": 14,
+                    "rsi_oversold_strong": 30.0,
+                    "rsi_oversold": 40.0,
+                    "rsi_overbought": 60.0,
+                    "rsi_overbought_strong": 70.0,
+                    "output_dir": "MAT/report/TA",
+                    "__module_class_name": "MAT.actions.calculate_technicals.CalculateTechnicals"
+                },
+                "__module_class_name": "MAT.roles.technical_analyst.TechnicalAnalyst"
+            },
+            "SentimentAnalyst": {
+                "name": "SentimentAnalyst",
+                "profile": "Sentiment Analyst",
+                "goal": "Analyze news sentiment and identify market-moving catalysts",
+                "constraints": "Focus on recent news (last 7 days), verify sources, detect major events",
+                "desc": "",
+                "is_human": false,
+                "enable_memory": true,
+                "role_id": "",
+                "states": [
+                    "0. PublishSAReport",
+                    "1. PublishInvestigationReport"
+                ],
+                "actions": [
+                    {
+                        "name": "PublishSAReport",
+                        "i_context": "",
+                        "prefix": "You are a Sentiment Analyst, named SentimentAnalyst, your goal is Analyze news sentiment and identify market-moving catalysts. the constraint is Focus on recent news (last 7 days), verify sources, detect major events. ",
+                        "desc": "",
+                        "llm_name_or_type": null,
+                        "__module_class_name": "MAT.actions_module.PublishSAReport"
+                    },
+                    {
+                        "name": "PublishInvestigationReport",
+                        "i_context": "",
+                        "prefix": "You are a Sentiment Analyst, named SentimentAnalyst, your goal is Analyze news sentiment and identify market-moving catalysts. the constraint is Focus on recent news (last 7 days), verify sources, detect major events. ",
+                        "desc": "",
+                        "llm_name_or_type": null,
+                        "__module_class_name": "MAT.actions_module.PublishInvestigationReport"
+                    }
+                ],
+                "rc": {
+                    "memory": {
+                        "storage": [
+                            {
+                                "id": "3dedd7ef9c5143b685d2b2b1abdda0f0",
+                                "content": "{\"ticker\": \"KO\", \"fiscal_year\": 2022}",
+                                "instruct_content": null,
+                                "role": "Orchestrator",
+                                "cause_by": "MAT.actions_module.StartAnalysis",
+                                "sent_from": "",
+                                "send_to": [
+                                    "<all>"
+                                ],
+                                "metadata": {}
+                            }
+                        ],
+                        "index": {
+                            "MAT.actions_module.StartAnalysis": [
+                                {
+                                    "id": "3dedd7ef9c5143b685d2b2b1abdda0f0",
+                                    "content": "{\"ticker\": \"KO\", \"fiscal_year\": 2022}",
+                                    "instruct_content": null,
+                                    "role": "Orchestrator",
+                                    "cause_by": "MAT.actions_module.StartAnalysis",
+                                    "sent_from": "",
+                                    "send_to": [
+                                        "<all>"
+                                    ],
+                                    "metadata": {}
+                                }
+                            ]
+                        },
+                        "ignore_id": false
+                    },
+                    "working_memory": {
+                        "storage": [],
+                        "index": {},
+                        "ignore_id": false
+                    },
+                    "state": -1,
+                    "watch": [
+                        "MAT.actions_module.StartAnalysis",
+                        "MAT.actions_module.RequestInvestigation"
+                    ],
+                    "react_mode": "react",
+                    "max_react_loop": 1
+                },
+                "addresses": [
+                    "MAT.roles.sentiment_analyst.SentimentAnalyst",
+                    "SentimentAnalyst"
+                ],
+                "planner": {
+                    "plan": {
+                        "goal": "",
+                        "context": "",
+                        "tasks": [],
+                        "task_map": {},
+                        "current_task_id": ""
+                    },
+                    "working_memory": {
+                        "storage": [],
+                        "index": {},
+                        "ignore_id": false
+                    },
+                    "auto_run": false
+                },
+                "recovered": false,
+                "latest_observed_msg": {
+                    "id": "3dedd7ef9c5143b685d2b2b1abdda0f0",
+                    "content": "{\"ticker\": \"KO\", \"fiscal_year\": 2022}",
+                    "instruct_content": null,
+                    "role": "Orchestrator",
+                    "cause_by": "MAT.actions_module.StartAnalysis",
+                    "sent_from": "",
+                    "send_to": [
+                        "<all>"
+                    ],
+                    "metadata": {}
+                },
+                "observe_all_msg_from_buffer": false,
+                "system_reference_date": "2022-12-31",
+                "__module_class_name": "MAT.roles.sentiment_analyst.SentimentAnalyst"
+            },
+            "AlphaStrategist": {
+                "name": "AlphaStrategist",
+                "profile": "Alpha Strategist",
+                "goal": "Synthesize multi-dimensional analysis into actionable trading decisions",
+                "constraints": "Use Safe-First approach; delegate reasoning to Actions",
+                "desc": "",
+                "is_human": false,
+                "enable_memory": true,
+                "role_id": "",
+                "states": [
+                    "0. RequestInvestigation",
+                    "1. PublishStrategyDecision"
+                ],
+                "actions": [
+                    {
+                        "name": "RequestInvestigation",
+                        "i_context": "",
+                        "prefix": "You are a Alpha Strategist, named AlphaStrategist, your goal is Synthesize multi-dimensional analysis into actionable trading decisions. the constraint is Use Safe-First approach; delegate reasoning to Actions. ",
+                        "desc": "",
+                        "llm_name_or_type": null,
+                        "__module_class_name": "MAT.actions_module.RequestInvestigation"
+                    },
+                    {
+                        "name": "PublishStrategyDecision",
+                        "i_context": "",
+                        "prefix": "You are a Alpha Strategist, named AlphaStrategist, your goal is Synthesize multi-dimensional analysis into actionable trading decisions. the constraint is Use Safe-First approach; delegate reasoning to Actions. ",
+                        "desc": "",
+                        "llm_name_or_type": null,
+                        "__module_class_name": "MAT.actions_module.PublishStrategyDecision"
                     }
                 ],
                 "rc": {
@@ -115,14 +354,17 @@
                     },
                     "state": -1,
                     "watch": [
-                        "__main__.DemocraticSay"
+                        "MAT.actions_module.PublishSAReport",
+                        "MAT.actions_module.PublishFAReport",
+                        "MAT.actions_module.PublishInvestigationReport",
+                        "MAT.actions_module.PublishTAReport"
                     ],
                     "react_mode": "react",
                     "max_react_loop": 1
                 },
                 "addresses": [
-                    "B",
-                    "metagpt.roles.role.Role"
+                    "MAT.roles.alpha_strategist.AlphaStrategist",
+                    "AlphaStrategist"
                 ],
                 "planner": {
                     "plan": {
@@ -142,81 +384,18 @@
                 "recovered": false,
                 "latest_observed_msg": null,
                 "observe_all_msg_from_buffer": false,
-                "__module_class_name": "metagpt.roles.role.Role"
-            },
-            "C": {
-                "name": "C",
-                "profile": "Voter",
-                "goal": "Vote for the candidate",
-                "constraints": "",
-                "desc": "",
-                "is_human": false,
-                "enable_memory": true,
-                "role_id": "",
-                "states": [
-                    "0. VoteAction"
-                ],
-                "actions": [
-                    {
-                        "name": "Vote",
-                        "i_context": "",
-                        "prefix": "You are a Voter, named C, your goal is Vote for the candidate. You are in US election live broadcast with roles(A, B).",
-                        "desc": "",
-                        "llm_name_or_type": null,
-                        "__module_class_name": "__main__.VoteAction"
-                    }
-                ],
-                "rc": {
-                    "memory": {
-                        "storage": [],
-                        "index": {},
-                        "ignore_id": false
-                    },
-                    "working_memory": {
-                        "storage": [],
-                        "index": {},
-                        "ignore_id": false
-                    },
-                    "state": -1,
-                    "watch": [
-                        "__main__.RepublicanSay"
-                    ],
-                    "react_mode": "react",
-                    "max_react_loop": 1
-                },
-                "addresses": [
-                    "C",
-                    "metagpt.roles.role.Role"
-                ],
-                "planner": {
-                    "plan": {
-                        "goal": "",
-                        "context": "",
-                        "tasks": [],
-                        "task_map": {},
-                        "current_task_id": ""
-                    },
-                    "working_memory": {
-                        "storage": [],
-                        "index": {},
-                        "ignore_id": false
-                    },
-                    "auto_run": false
-                },
-                "recovered": false,
-                "latest_observed_msg": null,
-                "observe_all_msg_from_buffer": false,
-                "__module_class_name": "metagpt.roles.role.Role"
+                "system_reference_date": null,
+                "__module_class_name": "MAT.roles.alpha_strategist.AlphaStrategist"
             }
         },
         "history": {
             "storage": [
                 {
-                    "id": "9f9198dec63c477a9ffcdae927a2d647",
-                    "content": "Topic: climate change. Under 80 words per message.",
+                    "id": "3dedd7ef9c5143b685d2b2b1abdda0f0",
+                    "content": "{\"ticker\": \"KO\", \"fiscal_year\": 2022}",
                     "instruct_content": null,
-                    "role": "user",
-                    "cause_by": "metagpt.actions.add_requirement.UserRequirement",
+                    "role": "Orchestrator",
+                    "cause_by": "MAT.actions_module.StartAnalysis",
                     "sent_from": "",
                     "send_to": [
                         "<all>"
@@ -225,13 +404,13 @@
                 }
             ],
             "index": {
-                "metagpt.actions.add_requirement.UserRequirement": [
+                "MAT.actions_module.StartAnalysis": [
                     {
-                        "id": "9f9198dec63c477a9ffcdae927a2d647",
-                        "content": "Topic: climate change. Under 80 words per message.",
+                        "id": "3dedd7ef9c5143b685d2b2b1abdda0f0",
+                        "content": "{\"ticker\": \"KO\", \"fiscal_year\": 2022}",
                         "instruct_content": null,
-                        "role": "user",
-                        "cause_by": "metagpt.actions.add_requirement.UserRequirement",
+                        "role": "Orchestrator",
+                        "cause_by": "MAT.actions_module.StartAnalysis",
                         "sent_from": "",
                         "send_to": [
                             "<all>"
@@ -242,10 +421,10 @@
             },
             "ignore_id": false
         },
-        "__module_class_name": "metagpt.environment.base_env.Environment"
+        "__module_class_name": "MAT.environment.InvestmentEnvironment"
     },
-    "investment": 5.0,
-    "idea": "Topic: climate change. Under 80 words per message.",
+    "investment": 10.0,
+    "idea": "",
     "use_mgx": true,
     "context": {
         "kwargs": {},

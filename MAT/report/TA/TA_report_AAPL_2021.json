@@ -1,0 +1,18 @@
+{
+  "ticker": "AAPL",
+  "rsi_14": 62.67654586413285,
+  "bb_lower_touch": false,
+  "volatility_atr": 4.0497306283875,
+  "price_to_ma20_dist": 0.025369379795561177,
+  "price_to_ma50_dist": 0.10354892623260481,
+  "price_to_ma200_dist": 0.24294082741691359,
+  "market_regime": "The current price of $174.54 is +2.54% above the 20-day moving average (MA20) of $170.22, indicating a short-term upward trend. In the medium-term, the price is +10.35% above the 50-day moving average (MA50) of $158.16, reinforcing the upward momentum. Over the long-term, the price is +24.29% above the 200-day moving average (MA200) of $140.42, suggesting a strong bullish trend. However, the significant deviation from the MA200 indicates a potential mean reversion risk, as the price has moved substantially away from its long-term structural support, which could lead to a pullback to reestablish equilibrium.",
+  "indicator_tension_analysis": "The RSI(14) at 62.68 suggests moderate bullish momentum, aligning with the price being above all moving averages. The price is positioned between the middle and upper Bollinger Bands, indicating a continuation of the upward trend. The alignment of momentum indicators with the multi-period trend structure supports the current bullish regime, with no immediate signs of conflict.",
+  "dead_cat_vs_value": "The structural categorization leans towards a 'Value Entry Opportunity' as the price is above all key moving averages (MA20, MA50, MA200), indicating strong support and alignment across multiple timeframes. The absence of any significant bearish crossover signals further supports this view, suggesting that the current price level is supported by the underlying trend structure.",
+  "pivot_zones": {
+    "ma200_level": 140.42,
+    "ma50_level": 158.16,
+    "ma20_level": 170.22,
+    "bb_middle": 170.22
+  }
+}

@@ -154,6 +154,10 @@ class AlphaStrategist(BaseInvestmentAgent):
             if not ticker:
                 return
 
+            # Update current ticker if not set
+            if not self._current_ticker:
+                self._current_ticker = ticker
+
             state = self._get_or_create_state(ticker)
 
             # Get the cause_by string for comparison

@@ -145,7 +145,14 @@ class SentimentAnalyst(BaseInvestmentAgent):
         Returns:
             Message with SAReport
         """
-        ticker = self._current_ticker
+        ticker = self._current_ticker or self.env.trading_state.current_ticker
+        if not ticker:
+            logger.error("❌ No ticker specified for sentiment analysis")
+            return self.publish_message(
+                report=self._create_default_report("UNKNOWN"),
+                cause_by=PublishSAReport
+            )
+
         logger.info(f"📰 Starting normal sentiment analysis for {ticker}")
 
         # Use Tavily SearchDeepDive if available, otherwise fallback to DuckDuckGo

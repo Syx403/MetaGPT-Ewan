@@ -3,9 +3,9 @@
 **Report Type:** Technical Analysis (TA)
 **Ticker:** KO
 **Fiscal Year:** 2022
-**Generated At:** 2026-01-07 00:08:34
-**Data Range:** 2022-10-18 to 2022-12-30
-**Trading Days:** 52
+**Generated At:** 2026-01-08 02:40:00
+**Data Range:** 2022-10-17 to 2022-12-30
+**Trading Days:** 53
 **Analysis Mode:** historical
 
 ---
@@ -17,17 +17,17 @@
 - **BB Lower Touch:** False
 - **Price to MA(200) Distance:** +4.09%
 - **ATR Volatility:** $0.81
-- **Market Regime:** The current price of $58.12 is slightly above the short-term SMA(20) of $58.09, indicating a marginally positive short-term trend. In the medium-term, the price is $58.12, which is 3.62% above the SMA(50) of $56.09, suggesting a stronger upward trend. Over the long-term, the price is 4.09% above the SMA(200) of $55.84, reinforcing a positive long-term trend. The relatively small deviations from the moving averages suggest a balanced market regime with limited mean reversion risk, as the price remains close to its structural support levels across all timeframes.
+- **Market Regime:** The current price of $58.12 is slightly above the short-term SMA(20) of $58.09, indicating a marginally positive short-term trend. In the medium-term, the price is +3.62% above the SMA(50) of $56.09, suggesting a more pronounced upward trend. Over the long-term, the price is +4.09% above the SMA(200) of $55.84, reinforcing a sustained upward trend. The relatively small deviations from the moving averages across all timeframes suggest a stable market regime with limited mean reversion risk, as the price remains close to structural support levels.
 
 ---
 
 ## Expert Evidence Analysis
 
 **Indicator Tension Analysis:**
-The RSI(14) at 56.15 indicates neutral momentum, neither overbought nor oversold, aligning with the price's position near the middle Bollinger Band of $58.09. This suggests a lack of strong momentum conflict. The multi-period trend structure, with the price above all moving averages, aligns with this neutral to slightly positive momentum, indicating no significant tension between momentum indicators and trend structure.
+The RSI(14) at 56.15 indicates neutral momentum, neither overbought nor oversold, aligning with the price's position near the middle Bollinger Band of $58.09. This alignment suggests a balanced momentum environment. The multi-period trend structure, with the price above all moving averages, supports this neutral to slightly bullish momentum, indicating no significant tension between momentum indicators and trend structure.
 
 **Dead Cat vs Value Entry:**
-The price's proximity to the SMA(20) and its position above both the SMA(50) and SMA(200) suggest a 'Value Entry Opportunity' rather than a 'Dead Cat Bounce Risk.' The alignment of the price with key moving averages and the absence of significant deviations indicate structural support, reducing the likelihood of a dead cat bounce scenario.
+The price's proximity to the SMA(20) and its position above both the SMA(50) and SMA(200) suggest a 'Value Entry Opportunity.' The alignment of the price with key moving averages and the absence of significant deviations indicate structural support, reducing the likelihood of a dead cat bounce scenario.
 
 **Pivot Zones:**
 - ma200_level: $55.84

@@ -487,7 +487,7 @@ class RetrieveRAGData(Action):
             "dataset_ids": [self.ragflow_dataset_id],
             "top_k": self.top_k,
             "keyword": True,  # Enable keyword search for hybrid retrieval
-            "vector_similarity_weight": 0.4  # Give keywords more weight (0.3 vector, 0.7 keyword)
+            "vector_similarity_weight": 0.3  # Give keywords more weight (0.3 vector, 0.7 keyword)
         }
 
         # Add reranking if configured (improves table data recall)

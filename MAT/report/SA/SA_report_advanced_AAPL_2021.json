@@ -1,0 +1,18 @@
+{
+  "ticker": "AAPL",
+  "detailed_findings": "The investigation reveals that Apple's Q4 2021 revenue miss is primarily due to temporary supply chain constraints, specifically a global chip shortage, which impacted iPhone sales. Despite missing revenue expectations, Apple still reported significant year-over-year growth in various segments, indicating strong underlying demand. The issue appears to be temporary as analysts expect recovery once supply issues subside.",
+  "is_ambiguity_resolved": true,
+  "qualitative_sentiment_revision": "Neutral - the sentiment remains stable as the revenue miss is attributed to temporary supply chain issues rather than a fundamental business weakness.",
+  "risk_classification": "MANAGEABLE_NOISE",
+  "evidence_gaps": [
+    "Lack of specific timeline for resolution of supply chain issues",
+    "No detailed management strategy for mitigating future supply chain risks",
+    "Unclear impact on future quarters if supply constraints persist"
+  ],
+  "key_evidence": [
+    "Apple's Q4 2021 revenue was impacted by a $6 billion shortfall due to supply constraints.",
+    "Despite missing expectations, Apple reported a 29% year-over-year revenue increase.",
+    "Analysts expect Apple to recover as supply issues are resolved."
+  ],
+  "confidence_level": "MEDIUM"
+}

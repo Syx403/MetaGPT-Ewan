@@ -1,0 +1,18 @@
+{
+  "ticker": "AAPL",
+  "detailed_findings": "The investigation reveals that Apple's Q4 2022 revenue missed expectations due to foreign exchange headwinds and supply chain issues, despite beating EPS estimates. The gross margin exceeded expectations, indicating strong operational efficiency. The revenue gap appears to be a temporary issue rather than a structural threat, as it is influenced by external macroeconomic factors.",
+  "is_ambiguity_resolved": true,
+  "qualitative_sentiment_revision": "Confirms positive outlook with manageable risks due to strong operational performance despite external challenges.",
+  "risk_classification": "MANAGEABLE_NOISE",
+  "evidence_gaps": [
+    "Lack of specific revenue impact figures from foreign exchange headwinds",
+    "No clarity on management's mitigation timeline for supply chain issues",
+    "Unclear long-term impact of macroeconomic concerns on future revenue"
+  ],
+  "key_evidence": [
+    "Apple's Q4 2022 revenue missed expectations due to foreign exchange headwinds and supply chain issues.",
+    "Gross margin for Q4 2022 came in at 42.3%, beating expectations.",
+    "EPS estimates were beaten, indicating strong financial performance."
+  ],
+  "confidence_level": "MEDIUM"
+}
