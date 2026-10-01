@@ -1,3 +1,5 @@
+> **Historical implementation note:** this document predates the current evidence-oriented schemas and Action-delegating coordinator. Numeric signal fields and retry-policy examples may be obsolete. Use the [current guide](README.md) and [project README](../../README.md) for supported behavior.
+
 # Scheme C: Active Inquiry - Implementation Guide
 
 ## 🎯 Overview

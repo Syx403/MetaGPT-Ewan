@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">Investigate conflicting evidence</title><desc id="desc">MAT is a MetaGPT-based equity research prototype with four analyst roles. Collect evidence: RA: financial statements; TA: technical indicators; SA: news and sentiment Review and inquire: AS: compare the reports; Request an investigation; Revisit conflicting evidence Produce a report: Decision and reasoning; Source-linked evidence; Risk notes and data gaps Research workflow illustration. Model-generated decisions are not validated trading performance.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#edc77f" stroke-width="1.3"/></marker></defs>
+<rect width="1200" height="640" rx="24" fill="#0c1119"/>
+<path d="M48 56H100" stroke="#edc77f" stroke-width="4"/>
+<text x="116" y="64" fill="#edc77f" font-family="Arial,Helvetica,sans-serif" font-size="22" letter-spacing="3">EWAN LAB / PROJECT NOTES</text>
+<text x="48" y="135" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="40">Investigate conflicting evidence</text>
+<text x="48" y="181" fill="#abb8c9" font-family="Arial,Helvetica,sans-serif" font-size="23">MAT is a MetaGPT-based equity research prototype with four analyst roles.</text>
+<rect x="48" y="232" width="336" height="264" rx="16" fill="#141e2c" stroke="#324055"/>
+<text x="74" y="281" fill="#edc77f" font-family="Arial,Helvetica,sans-serif" font-size="22">01</text>
+<text x="74" y="325" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700">Collect evidence</text>
+<text x="74" y="372" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">RA: financial statements</text>
+<text x="74" y="408" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">TA: technical indicators</text>
+<text x="74" y="444" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">SA: news and sentiment</text>
+<path d="M395 364H420" stroke="#edc77f" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="432" y="232" width="336" height="264" rx="16" fill="#141e2c" stroke="#324055"/>
+<text x="458" y="281" fill="#edc77f" font-family="Arial,Helvetica,sans-serif" font-size="22">02</text>
+<text x="458" y="325" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700">Review and inquire</text>
+<text x="458" y="372" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">AS: compare the reports</text>
+<text x="458" y="408" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Request an investigation</text>
+<text x="458" y="444" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Revisit conflicting evidence</text>
+<path d="M779 364H804" stroke="#edc77f" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="816" y="232" width="336" height="264" rx="16" fill="#141e2c" stroke="#324055"/>
+<text x="842" y="281" fill="#edc77f" font-family="Arial,Helvetica,sans-serif" font-size="22">03</text>
+<text x="842" y="325" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700">Produce a report</text>
+<text x="842" y="372" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Decision and reasoning</text>
+<text x="842" y="408" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Source-linked evidence</text>
+<text x="842" y="444" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Risk notes and data gaps</text>
+<path d="M48 543H1152" stroke="#324055"/><text x="48" y="585" fill="#a4b2c5" font-family="Arial,Helvetica,sans-serif" font-size="21">Research workflow illustration. Model-generated decisions are not validated trading performance.</text></svg>
