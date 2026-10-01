@@ -1,29 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
-<title id="title">What an existing report contains</title><desc id="desc">Stored example: KO / fiscal year 2022 / generated January 8, 2026. Financial evidence: $43,004m revenue; +11.3% year over year; Financial-report references Reasoning trail: Technical structure check; News investigation; Conflict resolution notes Saved output: Model output: BUY; Decision + risk discussion; Markdown and JSON files Visual summary of the checked-in KO report; figures and the decision are historical model output.</desc>
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#edc77f" stroke-width="1.3"/></marker></defs>
-<rect width="1200" height="640" rx="24" fill="#0c1119"/>
-<path d="M48 56H100" stroke="#edc77f" stroke-width="4"/>
-<text x="116" y="64" fill="#edc77f" font-family="Arial,Helvetica,sans-serif" font-size="22" letter-spacing="3">EWAN LAB / PROJECT NOTES</text>
-<text x="48" y="135" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="40">What an existing report contains</text>
-<text x="48" y="181" fill="#abb8c9" font-family="Arial,Helvetica,sans-serif" font-size="23">Stored example: KO / fiscal year 2022 / generated January 8, 2026.</text>
-<rect x="48" y="232" width="336" height="264" rx="16" fill="#141e2c" stroke="#324055"/>
-<text x="74" y="281" fill="#edc77f" font-family="Arial,Helvetica,sans-serif" font-size="22">01</text>
-<text x="74" y="325" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700">Financial evidence</text>
-<text x="74" y="372" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">$43,004m revenue</text>
-<text x="74" y="408" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">+11.3% year over year</text>
-<text x="74" y="444" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Financial-report references</text>
-<path d="M395 364H420" stroke="#edc77f" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<rect x="432" y="232" width="336" height="264" rx="16" fill="#141e2c" stroke="#324055"/>
-<text x="458" y="281" fill="#edc77f" font-family="Arial,Helvetica,sans-serif" font-size="22">02</text>
-<text x="458" y="325" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700">Reasoning trail</text>
-<text x="458" y="372" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Technical structure check</text>
-<text x="458" y="408" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">News investigation</text>
-<text x="458" y="444" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Conflict resolution notes</text>
-<path d="M779 364H804" stroke="#edc77f" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<rect x="816" y="232" width="336" height="264" rx="16" fill="#141e2c" stroke="#324055"/>
-<text x="842" y="281" fill="#edc77f" font-family="Arial,Helvetica,sans-serif" font-size="22">03</text>
-<text x="842" y="325" fill="#f1f5f9" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700">Saved output</text>
-<text x="842" y="372" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Model output: BUY</text>
-<text x="842" y="408" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Decision + risk discussion</text>
-<text x="842" y="444" fill="#c4cede" font-family="Arial,Helvetica,sans-serif" font-size="23">Markdown and JSON files</text>
-<path d="M48 543H1152" stroke="#324055"/><text x="48" y="585" fill="#a4b2c5" font-family="Arial,Helvetica,sans-serif" font-size="21">Visual summary of the checked-in KO report; figures and the decision are historical model output.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="890" viewBox="0 0 1200 890" role="img" aria-labelledby="title desc">
+<title id="title">MAT: an annotated historical KO report</title><desc id="desc">An annotated summary of Strategy_report_KO_2022.md generated January 8, 2026. Revenue evidence and weak market sentiment conflict. Investigation attributes the discrepancy to forex and market reactions. The saved model decision is BUY, with retained data gaps; this is not measured trading performance.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" markerWidth="7" markerHeight="7" refX="9" refY="5" orient="auto-start-reverse"><path d="M1 1L9 5L1 9" fill="none" stroke="context-stroke" stroke-width="1.5"/></marker></defs>
+<rect width="1200" height="890" rx="18" fill="#eeeae1"/>
+<text x="48" y="52" fill="#8b6227" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start"><tspan x="48" dy="0">MAT / READ AN EXISTING OUTPUT</tspan></text>
+<text x="48" y="106" fill="#362f24" font-family="Arial, Helvetica, sans-serif" font-size="37" font-weight="700" text-anchor="start"><tspan x="48" dy="0">Follow the evidence behind the final label.</tspan></text>
+<text x="48" y="145" fill="#6e6353" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" text-anchor="start"><tspan x="48" dy="0">Annotated summary of the stored KO report — not a live application screenshot.</tspan></text>
+<rect x="48" y="181" width="704" height="647" rx="5" fill="#fffdf8" stroke="#c9bdab" stroke-width="1.5"/>
+<text x="78" y="223" fill="#362f24" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="start"><tspan x="78" dy="0">KO / FY 2022</tspan></text>
+<text x="78" y="255" fill="#6e6353" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start"><tspan x="78" dy="0">Generated 2026-01-08 · Strategy Decision Report</tspan></text>
+<path d="M78 279H722" fill="none" stroke="#d3c8b7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="320" fill="#362f24" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" text-anchor="start"><tspan x="78" dy="0">Financial evidence</tspan></text>
+<text x="78" y="356" fill="#362f24" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" text-anchor="start"><tspan x="78" dy="0">Revenue $43,004m · +11.3% year over year</tspan></text>
+<text x="78" y="386" fill="#6e6353" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" text-anchor="start"><tspan x="78" dy="0">Metric check and financial-report references</tspan></text>
+<circle cx="738" cy="341" r="16" fill="#8b6227"/>
+<text x="738" y="347" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="738" dy="0">1</tspan></text>
+<text x="78" y="438" fill="#362f24" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" text-anchor="start"><tspan x="78" dy="0">A tension to explain</tspan></text>
+<text x="78" y="474" fill="#362f24" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" text-anchor="start"><tspan x="78" dy="0">Revenue growth versus forex headwinds,</tspan><tspan x="78" dy="32">net-income decline, and cautious sentiment.</tspan></text>
+<circle cx="738" cy="480" r="16" fill="#8b6227"/>
+<text x="738" y="486" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="738" dy="0">2</tspan></text>
+<text x="78" y="565" fill="#362f24" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" text-anchor="start"><tspan x="78" dy="0">Investigation and interpretation</tspan></text>
+<text x="78" y="601" fill="#362f24" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" text-anchor="start"><tspan x="78" dy="0">The saved report classifies the conflict as</tspan><tspan x="78" dy="30">MANAGEABLE_NOISE, rather than structural risk.</tspan></text>
+<circle cx="738" cy="610" r="16" fill="#8b6227"/>
+<text x="738" y="616" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="738" dy="0">3</tspan></text>
+<path d="M78 660H722" fill="none" stroke="#d3c8b7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="78" y="703" fill="#6e6353" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="start"><tspan x="78" dy="0">MODEL OUTPUT</tspan></text>
+<text x="78" y="750" fill="#8b6227" font-family="Arial, Helvetica, sans-serif" font-size="37" font-weight="700" text-anchor="start"><tspan x="78" dy="0">BUY</tspan></text>
+<text x="211" y="745" fill="#362f24" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" text-anchor="start"><tspan x="211" dy="0">Reasoning and risk notes remain attached.</tspan></text>
+<circle cx="738" cy="744" r="16" fill="#8b6227"/>
+<text x="738" y="750" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle"><tspan x="738" dy="0">4</tspan></text>
+<text x="78" y="798" fill="#6e6353" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" text-anchor="start"><tspan x="78" dy="0">Historical model output ≠ validated performance.</tspan></text>
+<path d="M758 341H798" fill="none" stroke="#a7916e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="818" y="325" fill="#362f24" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="start"><tspan x="818" dy="0">Evidence, not just a score</tspan></text>
+<text x="818" y="359" fill="#6e6353" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" text-anchor="start"><tspan x="818" dy="0">Inspect the metric and</tspan><tspan x="818" dy="29">its source in the report.</tspan></text>
+<path d="M758 482H798" fill="none" stroke="#a7916e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="818" y="466" fill="#362f24" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="start"><tspan x="818" dy="0">Make the disagreement visible</tspan></text>
+<text x="818" y="500" fill="#6e6353" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" text-anchor="start"><tspan x="818" dy="0">The research value lies in</tspan><tspan x="818" dy="29">reconciling conflicting signals.</tspan></text>
+<path d="M758 613H798" fill="none" stroke="#a7916e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="818" y="597" fill="#362f24" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="start"><tspan x="818" dy="0">Trace the additional inquiry</tspan></text>
+<text x="818" y="631" fill="#6e6353" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" text-anchor="start"><tspan x="818" dy="0">See how the investigation</tspan><tspan x="818" dy="29">changes the interpretation.</tspan></text>
+<path d="M758 749H798" fill="none" stroke="#a7916e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="818" y="733" fill="#362f24" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="start"><tspan x="818" dy="0">Keep the limitations in view</tspan></text>
+<text x="818" y="767" fill="#6e6353" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" text-anchor="start"><tspan x="818" dy="0">Forex magnitude and the</tspan><tspan x="818" dy="29">long-term outlook remain unclear.</tspan></text>
+<text x="48" y="867" fill="#6e6353" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="400" text-anchor="start"><tspan x="48" dy="0">Source: MAT/report/Strategy/Strategy_report_KO_2022.md</tspan></text>
+</svg>

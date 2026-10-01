@@ -4,7 +4,7 @@
 
 MAT combines financial-statement evidence, technical indicators, and news analysis. A coordinating analyst compares the reports and can request a targeted investigation before producing a source-linked decision and risk discussion.
 
-![Four analyst roles collect evidence, investigate conflicts, and produce an inspectable report.](docs/assets/mat-workflow.svg)
+![Three analyst reports feed a coordinator. A conflict without an existing investigation triggers a targeted inquiry; the coordinator then synthesizes the available evidence.](docs/assets/mat-workflow.svg)
 
 [See a real stored report](#start-with-an-existing-report) · [How it works](#how-it-works) · [Code map](#read-the-code) · [Runtime requirements](docs/running.md) · [Provenance](NOTICE.md)
 
@@ -14,7 +14,7 @@ MAT combines financial-statement evidence, technical indicators, and news analys
 
 Input: **KO**, fiscal year **2022**. The stored example was generated on **January 8, 2026**.
 
-![A visual summary of the checked-in KO report, including financial evidence, the reasoning trail, and saved output.](docs/assets/mat-report-example.svg)
+![Annotated KO report: revenue evidence, conflicting sentiment, investigation findings, the saved model decision, and unresolved data gaps.](docs/assets/mat-report-example.svg)
 
 Open the [KO strategy report](MAT/report/Strategy/Strategy_report_KO_2022.md) to inspect its reasoning and risk notes. For another example, compare the [AAPL Markdown report](MAT/report/Strategy/Strategy_report_AAPL_2022.md) and [structured JSON output](MAT/report/Strategy/Strategy_report_AAPL_2022.json).
 
@@ -22,18 +22,7 @@ These are historical model outputs. A generated `BUY` label or confidence score 
 
 ## How it works
 
-```mermaid
-flowchart LR
-    A[Company and fiscal year] --> R[RA: financial evidence]
-    A --> T[TA: technical indicators]
-    A --> S[SA: news and sentiment]
-    R --> C[AS: compare reports]
-    T --> C
-    S --> C
-    C -->|No additional inquiry| F[Decision, sources, and risks]
-    C -->|Conflict and no prior investigation| I[SA: targeted investigation]
-    I --> F
-```
+The flowchart above follows the coordinator's decision path. The three analyst reports are inputs to AS; the additional SA investigation is conditional. AS remains responsible for synthesizing the final decision on either path.
 
 | Role | Source and responsibility |
 | --- | --- |
